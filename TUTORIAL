@@ -1,0 +1,278 @@
+TUTORIAL
+1. Criar sua conta no GitHub
+1.1 Acesse o GitHub
+Acesse o site do GitHub  
+Clique em Sign up.
+[INSERIR CAPTURA DA TELA]
+1.2 Informe seu e-mail
+Digite seu endereço de e-mail e avance.
+IMPORTANTE: Utilize um e-mail ao qual você tenha acesso, pois será necessário confirmar o endereço durante o cadastro.
+DICA: Recomendamos utilizar seu e-mail institucional, pois ele pode permitir o acesso a benefícios do GitHub Education, incluindo o Student Developer Pack, caso você atenda aos critérios de elegibilidade.
+
+1.3 Crie sua senha
+Crie uma senha para sua conta.
+1.4 Escolha seu username
+Escolha seu nome de usuário.
+Seu username fará parte do endereço do seu perfil no GitHub.
+Exemplo:
+github.com/seu-username
+os nossos por exemplo são 
+username YeddaYMC  https://github.com/YeddaYMC  e 
+username YeddaMC    https://github.com/YeddaMC
+username Mary-Ana-Carvalhais-Carneiro https://github.com/Mary-Ana-Carvalhais-Carneiro  
+
+1.5 Confirme sua conta
+Se o GitHub solicitar uma confirmação por e-mail, acesse seu e-mail e informe o código solicitado.
+IMAGEM 1
+
+1.6 Acesse seu perfil
+Após concluir o cadastro, acesse seu perfil. Clicando em sign in no topo da tela do seu lado direito. Faça login.
+🎉 Primeira etapa concluída! Agora você já tem uma conta ativa e o seu perfil criado no GitHub.
+
+
+2. Criar seu Profile README
+O Profile README é o README exibido diretamente ao abrir o seu perfil do GitHub.
+IMAGENS 2 E 3 
+Com Profile README                        Sem Profile README
+
+2.1 Crie um novo repositório
+No GitHub, clique em:
++ → New repository IMAGEM 4
+
+
+2.2 Informe o nome do repositório
+Em Repository name, digite exatamente o seu username.
+Nome do repositório: IMAGEM 5
+
+2.3 Configure o repositório
+Selecione:
+Public
+Add a README file
+Clique em Create repository. IMAGEM 6
+
+ 
+
+
+
+
+2.4 Edite o README  IMAGEM 7
+Abra o arquivo README.md e clique no ícone de edição ✏️.
+
+
+Digite uma breve apresentação. Você pode editar quantas vezes quiser.
+Nesse ponto você tera uma aba de edição (edit) onde voce vai escrever ou colar esse exemplo se preferir e uma aba de visualização (preview) para conferir se está como você quer. Elas ficam logo acima do texto.
+Quando estiver ok clique em commit changes à sua direita da tela  para salvar.
+Exemplo: IMAGEM 8 E 9
+
+# 👋 Olá! Eu sou [SEU NOME]
+
+🎓 Estudante de [SEU CURSO/ÁREA]  
+💻 Interessado(a) em [ÁREA/…]  
+🌱 Atualmente aprendendo [TECNOLOGIA/ASSUNTO]  
+🚀 Explorando projetos e novas possibilidades na tecnologia
+
+### Onde me encontrar
+
+LinkedIn
+
+### 📌 Projetos
+
+🔹🔗  [Nome do projeto](LINK_DO_PROJETO) — breve descrição do projeto.
+
+
+
+
+
+🎉 Segunda etapa concluída! Perfil personalizado com sucesso. A forma como você se apresenta faz toda a diferença! 😉
+
+
+
+
+
+
+3. Criar o repositório do projeto
+3.1 Crie um novo repositório
+Clique em:  IMAGEM 10
+3.2 Dê um nome ao projeto
+Digite um nome para o seu projeto.
+Selecione:
+Public
+Add a README file *importante
+se quiser adicione uma licença
+Clique em Create repository.
+IMAGEM 11
+
+
+🎉 Terceira etapa concluída! Repositório do projeto criado com sucesso. O espaço para organizar seu trabalho está pronto! 🚀 
+
+
+4. Preparar o conteúdo do projeto
+Escolha um pequeno texto autoral sobre um projeto que você já realizou ou está realizando ou apenas para entendimento inicial use o modelo que disponibilizamos abaixo. Você podera editar quantas vezes quiser. 
+
+
+4.1 Transformar o seu documento em Markdown com IA
+Nesta etapa, você vai utilizar a Inteligência Artificial para converter e formatar o texto do seu projeto acadêmico no padrão Markdown.
+Passo a passo para acessar a Inteligência Artificial:
+Abra uma nova aba no seu navegador de internet.
+No canto superior direito da página do Google, clique no ícone de aplicativo (os pontinhos) e selecione a opção Gemini.
+Alternativa: Digite diretamente o endereço gemini.google.com no seu navegador.
+Clique em Novo Chat no painel da esquerda.
+Escolha uma das opções de instrução (prompts) abaixo, copie o texto, cole na caixa de mensagem do chat e envie para a IA.
+Transforme o texto abaixo em um README em Markdown para um projeto acadêmico.
+
+Não invente informações e preserve o conteúdo original. Apenas me devolva o texto abaixo com a marcação.
+
+Texto:
+[COLE SEU TEXTO AQUI]
+
+OU  alternativamente use o texto de exemplo abaixo
+
+
+
+Transforme o texto abaixo em um README em Markdown para um projeto acadêmico.
+
+Não invente informações e preserve o conteúdo original.
+
+Nome do projeto:
+Meu Portfólio Digital
+Objetivo:
+Criar uma forma simples de organizar informações, dar visibilidade à minha produção acadêmica, registrar meu progresso e publicar meus projetos academicos.
+Descrição:
+Este projeto foi desenvolvido como uma atividade prática para aplicar conhecimentos de organização, documentação e apresentação de informações.
+Tecnologias utilizadas:
+<> Markdown 
+
+VI SciTec 
+
+PORTFÓLIO 4.0: INTRODUÇÃO À ORGANIZAÇÃO DE PROJETOS E VISIBILIDADE COM GITHUB 
+
+
+
+Atividade
+Status
+Criar o Perfil no GitHub
+🟢 Concluído
+Criar o Profile README
+🟢 Concluído
+Criar o repositório do projeto
+🟡 Em andamento
+Criar e editar o README
+🟡 Em andamento
+Criar a Wiki
+⚪ A realizar
+Adicionar o link da Wiki ao README
+⚪ A realizar
+Adicionar o projeto ao Profile README
+⚪ A realizar
+Testar os links e revisar o projeto
+⚪ A realizar
+
+
+
+Copie o resultado em Markdown.
+Vai ficar assim: 
+
+# Meu Portfólio Digital
+
+## Objetivo
+Criar uma forma simples de organizar informações, dar visibilidade à minha produção acadêmica, registrar meu progresso e publicar meus projetos academicos.
+
+## Descrição
+Este projeto foi desenvolvido como uma atividade prática para aplicar conhecimentos de organização, documentação e apresentação de informações.
+
+## Tecnologias utilizadas
+* Markdown
+
+---
+
+**VI SciTec**  
+**PORTFÓLIO 4.0: INTRODUÇÃO À ORGANIZAÇÃO DE PROJETOS E VISIBILIDADE COM GITHUB**
+
+---
+
+## Atividades
+
+| Atividade | Status |
+| :--- | :--- |
+| Criar o Perfil no GitHub | 🟢 Concluído |
+| Criar o Profile README | 🟢 Concluído |
+| Criar o repositório do projeto | 🟡 Em andamento |
+| Criar e editar o README | 🟡 Em andamento |
+| Criar a Wiki | ⚪ A realizar |
+| Adicionar o link da Wiki ao README | ⚪ A realizar |
+| Adicionar o projeto ao Profile README | ⚪ A realizar |
+| Testar os links e revisar o projeto | ⚪ A realizar |
+🎉 Quarta etapa concluída! Repositório e documentação estruturados com sucesso. Você já pode anexar a documentaçao na wiki utilizando Markdown! 📚 
+
+
+5. Criar a Wiki
+Dentro do repositório, clique em: IMAGEM 12
+Wiki
+
+Clique em:
+Create the first page
+Adicione um Título   IMAGEM 13
+Cole o conteudo em markdown gerado pela IA na etapa anterior.
+Impotante estar na aba write. 
+
+Na aba preview confira o resiltado  e se estiver tudo certo clique em Save Page.
+IMAGEM 14
+
+Copie o endereço da página.  IAMGEM 15
+
+🎉 Quinta etapa concluída!  Sua Wiki está pronta e organizada em Markdown! 📚 
+
+
+6. Criar o link da documentção|wiki no readme do projeto.
+No menu superior da página do repositório, clique na aba < > Code (a primeira opção à esquerda) e clique no icone de edição.
+Escolha a aba 
+No final do README, adicione:
+[Documentação do projeto](LINK DA WIKI)
+Substitua LINK DA WIKI pelo endereço copiado.
+Exemplo:
+[Exemplo de documentação do projeto](https://github.com/YeddaMC/VI-SciTec---PORTF-LIO-4.0-INTRODU-O-ORGANIZA-O-DE-PROJETOS-E-VISIBILIDADE-COM-GITHUB-/wiki/Criando-a-documenta%C3%A7%C3%A3o.)
+Clique em Commit changes.
+Clique no link para verificar se a Wiki abre corretamente.  IMAGEM 16
+
+
+🎉 Sexta etapa concluída! O link da sua Wiki foi integrado no README do projeto. A sua documentação já está facilmente acessível a partir da página principal do projeto! 🔗 
+
+
+7. Adicionar o projeto ao seu perfil.
+Agora vamos usar esse projeto para ver como colocamos um projeto em destaque no nosso perfil.
+Copie o endereço do seu repositório.
+Exemplo:
+https://github.com/YeddaMC/VI_SciTec-PORTFOLIO_4.0-INTRODUCAO_A_ORGANIZACAO_DE_PROJETOS_E_VISIBILIDADE_COM_GITHUB
+
+IMAGEM 17
+
+Volte ao seu Profile README. Clicando no seu nome usuario na alto da pagina à sua esquerda. IMAGEM 18
+
+Clique em Edit.O icone de lápis no canto superior a sua direita.
+Adicione o link do projeto também usando markdown. Se recisar de uma ajuda passe o link copiado e peça para a IA criar o link. Mas se quiser tentar sozinho use o formato abaixo:
+[Nome do Projeto](endereço do projeto - https://…) 
+ E se quiser copie e cole um icone no inicio como  📌 ou 🚀ou 🔗 para dar um toque personalizado. Use ## para criar titulo.
+ ## 📌 [VI SciTec — PORTFÓLIO 4.0](https://github.com/YeddaMC/VI_SciTec-PORTFOLIO_4.0-INTRODUCAO_A_ORGANIZACAO_DE_PROJETOS_E_VISIBILIDADE_COM_GITHUB) 
+ *Introdução à Organização de Projetos e Visibilidade com GitHub.*
+Clique em Commit changes para salvar as alteraçôes.
+IMAGEM 19 E 20
+
+
+
+8. Resultado final IMAGEM 21
+
+
+Seu perfil deverá permitir o seguinte caminho:
+Perfil → Projeto → README → Wiki
+Checklist
+☐ Conta criada
+☐ Profile README criado
+☐ Repositório do projeto criado
+☐ Texto autoral preparado
+☐ Texto convertido para Markdown
+☐ README do projeto criado
+☐ Wiki criada
+☐ Link do README para a Wiki criado
+☐ Projeto adicionado ao Profile README
+☐ Links testados
+Obrigada a todos!
