@@ -4,12 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>VI SciTec - Tutorial Passo a Passo</title>
-  
-  <!-- CSS personalizado -->
+  <title>VI SciTec 2026 - Tutorial Passo a Passo</title>
   <link rel="stylesheet" href="styles.css">
-  
-  <!-- JS personalizado -->
   <script src="script.js" defer></script>
 </head>
 
@@ -17,10 +13,10 @@
 
   <nav class="navbar">
     <div class="nav-container">
-      <a class="brand" href="index.html">VI SciTec 2026</a>
+      <a class="nav-brand" href="https://ifpr.edu.br/pinhais/pesquisa-extensao-e-inovacao/scitec/" target="_blank">VI SciTec 2026</a>
       <div class="nav-links">
-        <a href="index.html">Introdução</a>
-        <a class="active" href="tutorial.html">Tutorial Passo a Passo</a>
+        <a class="nav-link" href="index.html">Introdução</a>
+        <a class="nav-link active" href="tutorial.html">Tutorial Passo a Passo</a>
       </div>
     </div>
   </nav>
@@ -30,11 +26,14 @@
     <p>Portfólio 4.0: Introdução à Organização de Projetos e Visibilidade com GitHub</p>
 
     <div class="creditos">
-      <p><strong>Autores:</strong> 
+      <div class="creditos-linha">
+        <strong>Autoras:</strong> 
         <a href="https://github.com/YeddaMC" target="_blank">Yedda Maria Carvalhais (@YeddaMC)</a> | 
         <a href="https://github.com/Mary-Ana-Carvalhais-Carneiro" target="_blank">Mary Ana Carvalhais Carneiro (@Mary-Ana-Carvalhais-Carneiro)</a>
-      </p>
-      <p><strong>Orientadores:</strong> Prof.ª Lauriana Paludo | Prof. William Deus</p>
+      </div>
+      <div class="creditos-linha">
+        <strong>Orientadores:</strong> Prof.ª Lauriana Paludo | Prof. William Deus
+      </div>
     </div>
   </header>
 
@@ -42,6 +41,7 @@
 
     <h1>🚀 TUTORIAL PASSO A PASSO</h1>
 
+    <!-- PASSO 1 -->
     <h2>1. Criar sua conta no GitHub</h2>
 
     <h3>1.1 Acesse o GitHub</h3>
@@ -58,7 +58,24 @@
       <figcaption>Imagem 2 - Formulário de Cadastro do GitHub</figcaption>
     </figure>
 
-    <h2>2. Criar seu Profile README</h2>
+    <h3>1.3 Crie sua senha</h3>
+    <p>Escolha uma senha forte.</p>
+
+    <h3>1.4 Escolha seu nome de usuário (username)</h3>
+    <p>Escolha com atenção: este nome fará parte do endereço do seu perfil e dos seus projetos na web (ex: <code>github.com/seu-usuario</code>).</p>
+
+    <h3>1.5 Valide a verificação de segurança</h3>
+    <p>Resolva o desafio do robô.</p>
+
+    <h3>1.6 Confirme o código de verificação</h3>
+    <p>Insira o código enviado para o seu e-mail.</p>
+
+    <hr>
+
+    <!-- PASSO 2 -->
+    <h2>2. Criar seu Profile README (seu cartão de visitas)</h2>
+    <p>Compare o visual de um perfil com e sem o Profile README:</p>
+
     <figure class="img-container">
       <img src="APOSTILA IMAGENS/2.png" alt="Perfil Com Profile README">
       <figcaption>Imagem 3 - Perfil Com Profile README</figcaption>
@@ -69,35 +86,248 @@
       <figcaption>Imagem 4 - Perfil Sem Profile README</figcaption>
     </figure>
 
-    <h3>2.4 Edite o README</h3>
+    <h3>2.1 Abra o menu do seu perfil e clique em "Your repositories"</h3>
+    <figure class="img-container">
+      <img src="APOSTILA IMAGENS/4.png" alt="Menu do perfil e Your repositories">
+      <figcaption>Imagem 5 - Menu do Perfil</figcaption>
+    </figure>
+
+    <h3>2.2 Clique em "New" para criar um novo repositório</h3>
+    <figure class="img-container">
+      <img src="APOSTILA IMAGENS/5.png" alt="Botão New em repositórios">
+      <figcaption>Imagem 6 - Botão New Repositório</figcaption>
+    </figure>
+
+    <h3>2.3 Defina as configurações especiais do repositório</h3>
+    <p>Em <strong>Repository name</strong>, digite <strong>exatamente o mesmo nome do seu nome de usuário (username)</strong>.</p>
+    <p>Marque as opções:</p>
+    <ul>
+      <li><strong>Public</strong></li>
+      <li><strong>Add a README file</strong></li>
+    </ul>
+
+    <figure class="img-container">
+      <img src="APOSTILA IMAGENS/6-7.png" alt="Caixa secreta do Profile README e opções">
+      <figcaption>Imagem 7 - Configuração do Profile README</figcaption>
+    </figure>
+
+    <h3>2.4 Edite o README do seu perfil</h3>
+    <p>Clique no ícone de lápis ou no botão <strong>Edit</strong> para personalizar a sua apresentação.</p>
+
     <figure class="img-container">
       <img src="APOSTILA IMAGENS/8-9.png" alt="Editor e Botão Commit Changes">
       <figcaption>Imagem 8 - Editor e Botão Commit Changes</figcaption>
     </figure>
 
-    <h2>5. Criar a Wiki</h2>
-    <p>Copie o endereço da página gerada.</p>
+    <h4>Exemplo de Modelo de Texto em Markdown para usar no seu perfil:</h4>
+    <pre><code># 👋 Olá, eu sou o [Seu Nome]
+
+- 🎓 Estudante / Pesquisador(a) na instituição [Sua Instituição]
+- 🎯 Interessado(a) em [Suas Áreas de Interesse]
+- 🚀 Atualmente trabalhando no projeto [Nome do Projeto]
+- 📫 Como me encontrar: [Seu E-mail / LinkedIn / Redes]
+
+---
+### 🛠️ Tecnologias e Ferramentas
+- Markdown / GitHub / HTML / CSS
+</code></pre>
+
+    <h3>2.5 Salve as alterações</h3>
+    <p>Clique no botão verde <strong>Commit changes...</strong> e confirme.</p>
+
+    <hr>
+
+    <!-- PASSO 3 -->
+    <h2>3. Criar um repositório para o seu projeto acadêmico ou pessoal</h2>
+
+    <h3>3.1 Clique em "New" para criar outro repositório</h3>
+    <p>Siga para a criação do repositório de um projeto específico.</p>
+
+    <h3>3.2 Dê um nome simples e descritivo</h3>
+    <p>Exemplo: <code>projeto-scitec-2026</code> ou <code>sistema-monitoramento</code>.</p>
+
+    <figure class="img-container">
+      <img src="APOSTILA IMAGENS/10.png" alt="Criando repositório do projeto">
+      <figcaption>Imagem 9 - Criando Repositório do Projeto</figcaption>
+    </figure>
+
+    <h3>3.3 Marque "Public" e "Add a README file"</h3>
+    <p>Clique em <strong>Create repository</strong>.</p>
+
+    <figure class="img-container">
+      <img src="APOSTILA IMAGENS/11.png" alt="Repositório do projeto criado">
+      <figcaption>Imagem 10 - Repositório do Projeto Criado</figcaption>
+    </figure>
+
+    <hr>
+
+    <!-- PASSO 4 -->
+    <h2>4. Estruturar o README do projeto</h2>
+
+    <h3>4.1 Edite o README.md do projeto com as informações principais</h3>
+    <p>Modelo de estrutura sugerido:</p>
+    <pre><code># 📌 Nome do Projeto
+
+## 📖 Sobre o Projeto
+Breve resumo sobre o objetivo do projeto.
+
+## 👥 Autores e Orientadores
+- **Autor(a):** [Seu Nome](https://github.com/seu-usuario)
+- **Orientador(a):** [Nome do Orientador]
+
+## 🛠️ Tecnologias Utilizadas
+- Tecnologia 1
+- Tecnologia 2
+
+## 🔗 Links Úteis
+- [Documentação na Wiki](link-da-wiki)
+</code></pre>
+
+    <figure class="img-container">
+      <img src="APOSTILA IMAGENS/12.png" alt="Edição do README do Projeto">
+      <figcaption>Imagem 11 - Edição do README do Projeto</figcaption>
+    </figure>
+
+    <hr>
+
+    <!-- PASSO 5 -->
+    <h2>5. Criar e organizar a Wiki do projeto</h2>
+
+    <h3>5.1 Clique na aba "Wiki" no menu do seu repositório</h3>
+    <figure class="img-container">
+      <img src="APOSTILA IMAGENS/13.png" alt="Aba Wiki do repositório">
+      <figcaption>Imagem 12 - Aba Wiki do Repositório</figcaption>
+    </figure>
+
+    <h3>5.2 Clique em "Create the first page"</h3>
+    <figure class="img-container">
+      <img src="APOSTILA IMAGENS/14.png" alt="Criando primeira página da Wiki">
+      <figcaption>Imagem 13 - Criando Primeira Página da Wiki</figcaption>
+    </figure>
+
+    <h3>5.3 Escreva o conteúdo complementar da documentação e salve</h3>
+    <figure class="img-container">
+      <img src="APOSTILA IMAGENS/15.png" alt="Página da Wiki salva">
+      <figcaption>Imagem 14 - Página da Wiki Salva</figcaption>
+    </figure>
+
+    <h3>5.4 Copie o link (URL) da Wiki criada</h3>
     <figure class="img-container">
       <img src="APOSTILA IMAGENS/endereço da wiki.png" alt="Endereço Copiado da Wiki">
       <figcaption>Imagem 15 - Endereço Copiado da Wiki</figcaption>
     </figure>
 
-    <h2>8. Resultado final</h2>
+    <hr>
+
+    <!-- PASSO 6 -->
+    <h2>6. Conectar a Wiki e os Projetos ao seu Profile README</h2>
+
+    <h3>6.1 Abra o arquivo README.md do seu repositório do perfil</h3>
     <figure class="img-container">
-      <img src="APOSTILA IMAGENS/resultado final.png" alt="Resultado Final do Perfil">
-      <figcaption>Imagem 22 - Resultado Final do Perfil</figcaption>
+      <img src="APOSTILA IMAGENS/16.png" alt="Abrindo o README do perfil">
+      <figcaption>Imagem 16 - Abrindo o README do Perfil</figcaption>
     </figure>
 
-    <h3>Checklist Final VI SciTec:</h3>
-    <ul>
-      <li><input type="checkbox" disabled> Conta criada</li>
-      <li><input type="checkbox" disabled> Profile README criado</li>
-      <li><input type="checkbox" disabled> Repositório do projeto criado</li>
-      <li><input type="checkbox" disabled> Wiki e links configurados</li>
-    </ul>
+    <h3>6.2 Adicione os links dos seus repositórios e projetos</h3>
+    <p>Utilize a sintaxe de link em Markdown: <code>[Texto do Link](URL)</code>.</p>
+
+    <figure class="img-container">
+      <img src="APOSTILA IMAGENS/17.png" alt="Inserindo links no Profile README">
+      <figcaption>Imagem 17 - Inserindo Links no Profile README</figcaption>
+    </figure>
+
+    <figure class="img-container">
+      <img src="APOSTILA IMAGENS/18.png" alt="Visualizando prévia dos links">
+      <figcaption>Imagem 18 - Prévia dos Links</figcaption>
+    </figure>
+
+    <hr>
+
+    <!-- PASSO 7 -->
+    <h2>7. Publicar uma página web com o GitHub Pages</h2>
+
+    <h3>7.1 Vá em "Settings" no seu repositório de código/site</h3>
+    <figure class="img-container">
+      <img src="APOSTILA IMAGENS/19.png" alt="Configurações do repositório">
+      <figcaption>Imagem 19 - Configurações do Repositório</figcaption>
+    </figure>
+
+    <h3>7.2 No menu lateral, clique em "Pages"</h3>
+    <figure class="img-container">
+      <img src="APOSTILA IMAGENS/20.png" alt="Menu Pages no GitHub">
+      <figcaption>Imagem 20 - Seção Pages</figcaption>
+    </figure>
+
+    <h3>7.3 Selecione a branch "main" e salve</h3>
+    <p>Em <strong>Source</strong>, selecione a branch <code>main</code>, pasta <code>/ (root)</code> e clique em <strong>Save</strong>.</p>
+    <figure class="img-container">
+      <img src="APOSTILA IMAGENS/21.png" alt="Ativando GitHub Pages">
+      <figcaption>Imagem 21 - Ativando GitHub Pages</figcaption>
+    </figure>
+
+    <hr>
+
+    <!-- PASSO 8 -->
+    <h2>8. Resultado Final do Ecossistema Integrado</h2>
+    <p>Após concluir todos os passos, seu perfil apresentará seus projetos, documentação organizada via Wiki e seu site publicado pelo GitHub Pages!</p>
+
+    <figure class="img-container">
+      <img src="APOSTILA IMAGENS/resultado final.png" alt="Resultado Final do Perfil">
+      <figcaption>Imagem 22 - Resultado Final do Perfil Integrado</figcaption>
+    </figure>
+
+    <hr>
+
+    <h3>📋 Checklist de Atividades da VI SciTec:</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Etapa</th>
+          <th>Descrição</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Criação e verificação da conta no GitHub</td>
+          <td>[  ] Concluído</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Criação e edição do Profile README personalizado</td>
+          <td>[  ] Concluído</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Criação do repositório principal do projeto</td>
+          <td>[  ] Concluído</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Documentação inicial do projeto no README.md</td>
+          <td>[  ] Concluído</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Criação da Wiki do projeto com detalhes adicionais</td>
+          <td>[  ] Concluído</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>Integração dos links no perfil principal</td>
+          <td>[  ] Concluído</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>Publicação da página com GitHub Pages</td>
+          <td>[  ] Concluído</td>
+        </tr>
+      </tbody>
+    </table>
 
     <div class="btn-navigation">
-      <a href="index.html" class="btn">⬅️ Voltar para a Introdução</a>
+      <a href="index.html" class="btn btn-secondary">⬅️ Voltar para a Introdução</a>
     </div>
 
     <div class="top-link">
