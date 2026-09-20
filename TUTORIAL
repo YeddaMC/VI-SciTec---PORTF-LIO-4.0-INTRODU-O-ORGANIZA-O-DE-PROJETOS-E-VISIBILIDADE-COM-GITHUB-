@@ -59,17 +59,19 @@
     </figure>
 
     <h3>1.2 Informe seu e-mail</h3>
-    <p>Digite seu endereço de e-mail e avance.</p>
-    <p><strong>IMPORTANTE:</strong> Utilize um e-mail ao qual você tenha acesso, pois será necessário confirmar o endereço durante o cadastro.</p>
-    <p><strong>DICA:</strong> Recomendamos utilizar seu e-mail institucional, pois ele pode permitir o acesso a benefícios do GitHub Education, incluindo o Student Developer Pack, caso você atenda aos critérios de elegibilidade.</p>
+    <p>Digite seu endereço de e-mail e avance.<br>
+    <strong>IMPORTANTE:</strong> Utilize um e-mail ao qual você tenha acesso, pois será necessário confirmar o endereço durante o cadastro.<br>
+    <strong>DICA:</strong> Recomendamos utilizar seu e-mail institucional, pois ele pode permitir o acesso a benefícios do GitHub Education, incluindo o Student Developer Pack, caso você atenda aos critérios de elegibilidade.</p>
 
     <h3>1.3 Crie sua senha</h3>
     <p>Crie uma senha para sua conta.</p>
 
     <h3>1.4 Escolha seu username</h3>
-    <p>Escolha seu nome de usuário.<br>Seu username fará parte do endereço do seu perfil no GitHub.<br>Exemplo:</p>
-    <p><a href="http://github.com/seu-username" target="_blank">github.com/seu-username</a></p>
-    <p>os nossos por exemplo são</p>
+    <p>Escolha seu nome de usuário.<br>
+    Seu username fará parte do endereço do seu perfil no GitHub.<br>
+    Exemplo:<br>
+    <a href="http://github.com/seu-username" target="_blank">github.com/seu-username</a><br>
+    os nossos por exemplo são</p>
     <ul>
       <li>username YeddaYMC <a href="https://github.com/YeddaYMC" target="_blank">https://github.com/YeddaYMC</a> e username YeddaMC <a href="https://github.com/YeddaMC" target="_blank">https://github.com/YeddaMC</a></li>
       <li>username <a href="https://github.com/Mary-Ana-Carvalhais-Carneiro" target="_blank">Mary-Ana-Carvalhais-Carneiro</a> <a href="https://github.com/Mary-Ana-Carvalhais-Carneiro" target="_blank">https://github.com/Mary-Ana-Carvalhais-Carneiro</a></li>
