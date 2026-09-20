@@ -1,340 +1,65 @@
-/* ==========================================================================
-   ESTILOS GERAIS
-   ========================================================================== */
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.6;
-  color: #333333;
-  background-color: #f8f9fa;
-}
-
-/* ==========================================================================
-   NAVBAR (TÍTULOS E SUBTÍTULOS EM BRANCO ABSOLUTO)
-   ========================================================================== */
-.navbar {
-  background-color: #004d26;
-  width: 100%;
-  padding: 20px 0;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  border-bottom: 3px solid #002b15;
-}
-
-.nav-container {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 0 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  gap: 12px;
-}
-
-.nav-header-title {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 5px;
-}
-
-/* Título da Navbar */
-.nav-brand-title {
-  color: #ffffff !important;
-  font-size: 1.8rem;
-  font-weight: 800;
-  text-decoration: none;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
-}
-
-.nav-brand-title:hover {
-  text-decoration: underline;
-}
-
-/* Subtítulo da Navbar */
-.nav-subtitle {
-  color: #ffffff !important;
-  font-size: 1.05rem;
-  font-weight: 500;
-}
-
-/* Links de Navegação entre Páginas */
-.nav-links {
-  display: flex;
-  gap: 15px;
-  margin-top: 5px;
-}
-
-.nav-link {
-  color: #ffffff !important;
-  text-decoration: none;
-  font-size: 1rem;
-  font-weight: 600;
-  padding: 8px 18px;
-  border-radius: 20px;
-  background-color: rgba(255, 255, 255, 0.15);
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  transition: all 0.2s ease;
-}
-
-.nav-link:hover {
-  background-color: #ffffff !important;
-  color: #004d26 !important;
-  text-decoration: none;
-}
-
-.nav-link.active {
-  background-color: #ffffff !important;
-  color: #004d26 !important;
-  font-weight: 800;
-}
-
-/* ==========================================================================
-   BLOCO DE CRÉDITOS (TEXTOS E AUTORAS EM PRETO/ALTO CONTRASTE)
-   ========================================================================== */
+/* Ajuste da Caixa de Créditos (Sem bordas encavaladas) */
 .header-creditos-box {
-  background-color: #e9ecef;
-  padding: 18px;
-  border-bottom: 2px solid #cccccc;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 12px 20px;
+  width: 100%;
 }
 
 .creditos-container {
-  max-width: 1000px;
+  max-width: 1100px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 6px;
   align-items: center;
-  text-align: center;
+  justify-content: center;
+  font-family: inherit;
+  font-size: 0.95rem;
+  color: #333333;
 }
 
 .creditos-linha {
-  font-size: 1rem;
-  color: #000000;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
 }
 
-.creditos-linha strong {
-  color: #000000 !important;
-  background-color: #ffffff;
-  padding: 3px 8px;
-  border-radius: 4px;
-  border: 1px solid #000000;
-  font-weight: 800;
+.creditos-label {
+  font-weight: bold;
+  color: #111111;
 }
 
 .author-link {
-  color: #000000 !important;
-  background-color: #ffffff;
-  padding: 3px 10px;
-  border-radius: 4px;
-  border: 1px solid #000000;
-  text-decoration: underline;
-  font-weight: 700;
-  margin: 0 4px;
-  display: inline-block;
-  transition: all 0.2s;
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: 500;
 }
 
 .author-link:hover {
-  background-color: #000000 !important;
-  color: #ffffff !important;
-  text-decoration: none;
+  text-decoration: underline;
+}
+
+.divisor {
+  color: #888888;
 }
 
 .orientadores-texto {
-  color: #000000 !important;
-  font-weight: 600;
-  margin-left: 5px;
+  color: #222222;
 }
 
-/* ==========================================================================
-   CONTAINER E CONTEÚDO PRINCIPAL
-   ========================================================================== */
-.container {
-  max-width: 1000px;
-  margin: 30px auto;
-  background: #ffffff;
-  padding: 40px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.05);
-}
-
-h1, h2, h3, h4 {
-  color: #004d26;
-  margin-top: 25px;
-  margin-bottom: 15px;
-}
-
-p {
-  margin-bottom: 15px;
-}
-
-ul, ol {
-  margin-left: 25px;
-  margin-bottom: 20px;
-}
-
-li {
-  margin-bottom: 8px;
-}
-
-blockquote {
-  background-color: #e8f5e9;
-  border-left: 5px solid #004d26;
-  padding: 15px 20px;
-  margin: 20px 0;
-  border-radius: 0 4px 4px 0;
-}
-
-hr {
-  border: 0;
-  height: 1px;
-  background: #dddddd;
-  margin: 30px 0;
-}
-
-/* ==========================================================================
-   IMAGENS E CAPTURA DE TELA
-   ========================================================================== */
+/* Ajuste Responsivo para Imagens */
 .img-container {
-  margin: 25px 0;
+  margin: 15px 0;
   text-align: center;
-  background-color: #f9f9f9;
-  padding: 15px;
-  border: 1px solid #e0e0e0;
-  border-radius: 6px;
 }
 
 .img-container img {
   max-width: 100%;
   height: auto;
-  border-radius: 4px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-}
-
-figcaption {
-  margin-top: 10px;
-  font-size: 0.9rem;
-  color: #555555;
-  font-style: italic;
-}
-
-/* ==========================================================================
-   CÓDIGOS E TABELAS
-   ========================================================================== */
-pre {
-  background-color: #272822;
-  color: #f8f8f2;
-  padding: 15px;
+  border: 1px solid #ddd;
   border-radius: 6px;
-  overflow-x: auto;
-  margin: 20px 0;
-  font-family: 'Consolas', 'Courier New', Courier, monospace;
-}
-
-code {
-  background-color: #f1f1f1;
-  color: #c7254e;
-  padding: 2px 6px;
-  border-radius: 4px;
-  font-family: monospace;
-}
-
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 20px 0;
-}
-
-table, th, td {
-  border: 1px solid #dddddd;
-}
-
-th, td {
-  padding: 12px;
-  text-align: left;
-}
-
-th {
-  background-color: #004d26;
-  color: white;
-}
-
-tr:nth-child(even) {
-  background-color: #f2f2f2;
-}
-
-/* ==========================================================================
-   BOTÕES E NAVEGAÇÃO INTERNA
-   ========================================================================== */
-.btn-navigation {
-  text-align: center;
-  margin: 40px 0 20px 0;
-}
-
-.btn {
-  display: inline-block;
-  background-color: #004d26;
-  color: #ffffff !important;
-  padding: 14px 28px;
-  text-decoration: none;
-  font-size: 1.1rem;
-  font-weight: bold;
-  border-radius: 6px;
-  transition: background-color 0.2s, transform 0.1s;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.15);
-}
-
-.btn:hover {
-  background-color: #007a3d;
-  transform: translateY(-2px);
-  text-decoration: none;
-}
-
-.btn-secondary {
-  background-color: #5a6268;
-}
-
-.btn-secondary:hover {
-  background-color: #464d52;
-}
-
-.top-link {
-  text-align: center;
-  margin: 20px 0;
-}
-
-.top-link a {
-  color: #004d26;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.top-link a:hover {
-  text-decoration: underline;
-}
-
-/* ==========================================================================
-   RODAPÉ
-   ========================================================================== */
-footer {
-  background-color: #222222;
-  color: #ffffff;
-  text-align: center;
-  padding: 25px 20px;
-  margin-top: 50px;
-  border-top: 3px solid #004d26;
-}
-
-footer p {
-  margin: 0;
-  font-size: 0.95rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
