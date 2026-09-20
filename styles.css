@@ -1,5 +1,5 @@
 /* ==========================================================================
-   ESTILOS GERAIS 
+   ESTILOS GERAIS
    ========================================================================== */
 * {
   box-sizing: border-box;
@@ -15,7 +15,7 @@ body {
 }
 
 /* ==========================================================================
-   BARRA DE NAVEGAÇÃO E CABEÇALHO SUPERIOR (NAVBAR)
+   NAVBAR (TÍTULOS E SUBTÍTULOS EM BRANCO ABSOLUTO)
    ========================================================================== */
 .navbar {
   background-color: #004d26;
@@ -46,7 +46,7 @@ body {
   gap: 5px;
 }
 
-/* Título em Branco Puro */
+/* Título da Navbar */
 .nav-brand-title {
   color: #ffffff !important;
   font-size: 1.8rem;
@@ -59,15 +59,14 @@ body {
   text-decoration: underline;
 }
 
-/* Subtítulo em Branco Puro */
+/* Subtítulo da Navbar */
 .nav-subtitle {
   color: #ffffff !important;
   font-size: 1.05rem;
   font-weight: 500;
-  opacity: 0.95;
 }
 
-/* Links de Navegação */
+/* Links de Navegação entre Páginas */
 .nav-links {
   display: flex;
   gap: 15px;
@@ -99,11 +98,11 @@ body {
 }
 
 /* ==========================================================================
-   BLOCO DE CRÉDITOS (PRETO SOBRE BRANCO / SEM AMARELO)
+   BLOCO DE CRÉDITOS (TEXTOS E AUTORAS EM PRETO/ALTO CONTRASTE)
    ========================================================================== */
 .header-creditos-box {
-  background-color: #f0f0f0;
-  padding: 20px;
+  background-color: #e9ecef;
+  padding: 18px;
   border-bottom: 2px solid #cccccc;
 }
 
@@ -122,7 +121,6 @@ body {
   color: #000000;
 }
 
-/* Rótulos em PRETO */
 .creditos-linha strong {
   color: #000000 !important;
   background-color: #ffffff;
@@ -132,7 +130,6 @@ body {
   font-weight: 800;
 }
 
-/* Links das Autoras em PRETO */
 .author-link {
   color: #000000 !important;
   background-color: #ffffff;
@@ -141,6 +138,8 @@ body {
   border: 1px solid #000000;
   text-decoration: underline;
   font-weight: 700;
+  margin: 0 4px;
+  display: inline-block;
   transition: all 0.2s;
 }
 
@@ -153,6 +152,7 @@ body {
 .orientadores-texto {
   color: #000000 !important;
   font-weight: 600;
+  margin-left: 5px;
 }
 
 /* ==========================================================================
@@ -202,7 +202,7 @@ hr {
 }
 
 /* ==========================================================================
-   IMAGENS E FIGURAS
+   IMAGENS E CAPTURA DE TELA
    ========================================================================== */
 .img-container {
   margin: 25px 0;
@@ -273,7 +273,7 @@ tr:nth-child(even) {
 }
 
 /* ==========================================================================
-   BOTÕES E AÇÕES
+   BOTÕES E NAVEGAÇÃO INTERNA
    ========================================================================== */
 .btn-navigation {
   text-align: center;
@@ -323,7 +323,7 @@ tr:nth-child(even) {
 }
 
 /* ==========================================================================
-   RODAPÉ (FOOTER)
+   RODAPÉ
    ========================================================================== */
 footer {
   background-color: #222222;
