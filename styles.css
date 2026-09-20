@@ -1,336 +1,340 @@
 /* ==========================================================================
-ESTILOS GERAIS 
-========================================================================== */
-
-{
-box-sizing: border-box;
-margin: 0;
-padding: 0;
+   ESTILOS GERAIS 
+   ========================================================================== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-line-height: 1.6;
-color: #333333;
-background-color: #f8f9fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333333;
+  background-color: #f8f9fa;
 }
 
 /* ==========================================================================
-BARRA DE NAVEGAÇÃO E CABEÇALHO INTEGRADOS
-========================================================================== */
+   BARRA DE NAVEGAÇÃO E CABEÇALHO SUPERIOR (NAVBAR)
+   ========================================================================== */
 .navbar {
-background-color: #004d26;
-width: 100%;
-padding: 20px 0;
-box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
-position: sticky;
-top: 0;
-z-index: 1000;
-border-bottom: 4px solid #003319;
+  background-color: #004d26;
+  width: 100%;
+  padding: 20px 0;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-bottom: 3px solid #002b15;
 }
 
 .nav-container {
-max-width: 1000px;
-margin: 0 auto;
-padding: 0 20px;
-display: flex;
-flex-direction: column;
-align-items: center;
-gap: 15px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 12px;
 }
 
-/* Marca / Título do Evento na Navbar */
-.nav-header-brand {
-text-align: center;
+.nav-header-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
 }
 
-.nav-header-brand h1 {
-font-size: 1.8rem;
-font-weight: 800;
-color: #ffffff !important;
-margin: 0 0 4px 0;
-line-height: 1.2;
+/* Título em Branco Puro */
+.nav-brand-title {
+  color: #ffffff !important;
+  font-size: 1.8rem;
+  font-weight: 800;
+  text-decoration: none;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
 }
 
-.nav-header-brand h1 a {
-color: #ffffff !important;
-text-decoration: none;
-transition: color 0.2s ease;
+.nav-brand-title:hover {
+  text-decoration: underline;
 }
 
-.nav-header-brand h1 a:hover {
-color: #ffd700 !important;
-text-decoration: none;
+/* Subtítulo em Branco Puro */
+.nav-subtitle {
+  color: #ffffff !important;
+  font-size: 1.05rem;
+  font-weight: 500;
+  opacity: 0.95;
 }
 
-.nav-header-brand .subtitle {
-font-size: 1.05rem;
-color: #e0e0e0;
-font-weight: 500;
-margin: 0;
-}
-
-/* Links de Navegação entre Páginas */
+/* Links de Navegação */
 .nav-links {
-display: flex;
-gap: 15px;
-align-items: center;
-justify-content: center;
-background-color: rgba(0, 0, 0, 0.2);
-padding: 6px 12px;
-border-radius: 20px;
+  display: flex;
+  gap: 15px;
+  margin-top: 5px;
 }
 
 .nav-link {
-color: #ffffff !important;
-text-decoration: none;
-font-size: 0.95rem;
-font-weight: 600;
-padding: 6px 16px;
-border-radius: 15px;
-transition: all 0.2s ease;
+  color: #ffffff !important;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 8px 18px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  transition: all 0.2s ease;
 }
 
 .nav-link:hover {
-background-color: rgba(255, 255, 255, 0.25);
-text-decoration: none;
+  background-color: #ffffff !important;
+  color: #004d26 !important;
+  text-decoration: none;
 }
 
 .nav-link.active {
-background-color: #ffd700;
-color: #003319 !important;
-font-weight: 700;
+  background-color: #ffffff !important;
+  color: #004d26 !important;
+  font-weight: 800;
 }
 
 /* ==========================================================================
-SEÇÃO DE CRÉDITOS E AUTORIA (ALTO CONTRASTE)
-========================================================================== */
-.creditos-banner {
-background-color: #003319;
-color: #ffffff;
-padding: 16px 20px;
-border-bottom: 2px solid #ffd700;
+   BLOCO DE CRÉDITOS (PRETO SOBRE BRANCO / SEM AMARELO)
+   ========================================================================== */
+.header-creditos-box {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-bottom: 2px solid #cccccc;
 }
 
 .creditos-container {
-max-width: 1000px;
-margin: 0 auto;
-display: flex;
-flex-direction: column;
-gap: 6px;
-align-items: center;
-text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  text-align: center;
 }
 
 .creditos-linha {
-font-size: 0.95rem;
-color: #ffffff;
+  font-size: 1rem;
+  color: #000000;
 }
 
+/* Rótulos em PRETO */
 .creditos-linha strong {
-color: #ffd700; /* Rótulo em Dourado de Alto Contraste */
-font-weight: 700;
+  color: #000000 !important;
+  background-color: #ffffff;
+  padding: 3px 8px;
+  border-radius: 4px;
+  border: 1px solid #000000;
+  font-weight: 800;
 }
 
-/* Estilo para garantir visibilidade máxima e contraste absoluto das autoras */
-.creditos-linha a {
-color: #ffffff !important;
-background-color: rgba(255, 255, 255, 0.15);
-padding: 3px 8px;
-border-radius: 4px;
-text-decoration: underline;
-font-weight: 700;
-transition: all 0.2s ease;
-display: inline-block;
-margin: 2px 0;
+/* Links das Autoras em PRETO */
+.author-link {
+  color: #000000 !important;
+  background-color: #ffffff;
+  padding: 3px 10px;
+  border-radius: 4px;
+  border: 1px solid #000000;
+  text-decoration: underline;
+  font-weight: 700;
+  transition: all 0.2s;
 }
 
-.creditos-linha a:hover {
-color: #003319 !important;
-background-color: #ffd700;
-text-decoration: none;
+.author-link:hover {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  text-decoration: none;
+}
+
+.orientadores-texto {
+  color: #000000 !important;
+  font-weight: 600;
 }
 
 /* ==========================================================================
-CONTAINER E CONTEÚDO PRINCIPAL
-========================================================================== */
+   CONTAINER E CONTEÚDO PRINCIPAL
+   ========================================================================== */
 .container {
-max-width: 1000px;
-margin: 30px auto;
-background: #ffffff;
-padding: 40px;
-border-radius: 8px;
-box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  max-width: 1000px;
+  margin: 30px auto;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
 }
 
 h1, h2, h3, h4 {
-color: #004d26;
-margin-top: 25px;
-margin-bottom: 15px;
+  color: #004d26;
+  margin-top: 25px;
+  margin-bottom: 15px;
 }
 
 p {
-margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 ul, ol {
-margin-left: 25px;
-margin-bottom: 20px;
+  margin-left: 25px;
+  margin-bottom: 20px;
 }
 
 li {
-margin-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 blockquote {
-background-color: #e8f5e9;
-border-left: 5px solid #004d26;
-padding: 15px 20px;
-margin: 20px 0;
-border-radius: 0 4px 4px 0;
+  background-color: #e8f5e9;
+  border-left: 5px solid #004d26;
+  padding: 15px 20px;
+  margin: 20px 0;
+  border-radius: 0 4px 4px 0;
 }
 
 hr {
-border: 0;
-height: 1px;
-background: #dddddd;
-margin: 30px 0;
+  border: 0;
+  height: 1px;
+  background: #dddddd;
+  margin: 30px 0;
 }
 
 /* ==========================================================================
-IMAGENS E FIGURAS
-========================================================================== */
+   IMAGENS E FIGURAS
+   ========================================================================== */
 .img-container {
-margin: 25px 0;
-text-align: center;
-background-color: #f9f9f9;
-padding: 15px;
-border: 1px solid #e0e0e0;
-border-radius: 6px;
+  margin: 25px 0;
+  text-align: center;
+  background-color: #f9f9f9;
+  padding: 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
 }
 
 .img-container img {
-max-width: 100%;
-height: auto;
-border-radius: 4px;
-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
 figcaption {
-margin-top: 10px;
-font-size: 0.9rem;
-color: #555555;
-font-style: italic;
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #555555;
+  font-style: italic;
 }
 
 /* ==========================================================================
-CÓDIGOS E TABELAS
-========================================================================== */
+   CÓDIGOS E TABELAS
+   ========================================================================== */
 pre {
-background-color: #272822;
-color: #f8f8f2;
-padding: 15px;
-border-radius: 6px;
-overflow-x: auto;
-margin: 20px 0;
-font-family: 'Consolas', 'Courier New', Courier, monospace;
+  background-color: #272822;
+  color: #f8f8f2;
+  padding: 15px;
+  border-radius: 6px;
+  overflow-x: auto;
+  margin: 20px 0;
+  font-family: 'Consolas', 'Courier New', Courier, monospace;
 }
 
 code {
-background-color: #f1f1f1;
-color: #c7254e;
-padding: 2px 6px;
-border-radius: 4px;
-font-family: monospace;
+  background-color: #f1f1f1;
+  color: #c7254e;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: monospace;
 }
 
 table {
-width: 100%;
-border-collapse: collapse;
-margin: 20px 0;
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
 }
 
 table, th, td {
-border: 1px solid #dddddd;
+  border: 1px solid #dddddd;
 }
 
 th, td {
-padding: 12px;
-text-align: left;
+  padding: 12px;
+  text-align: left;
 }
 
 th {
-background-color: #004d26;
-color: white;
+  background-color: #004d26;
+  color: white;
 }
 
 tr:nth-child(even) {
-background-color: #f2f2f2;
+  background-color: #f2f2f2;
 }
 
 /* ==========================================================================
-BOTÕES E AÇÕES
-========================================================================== */
+   BOTÕES E AÇÕES
+   ========================================================================== */
 .btn-navigation {
-text-align: center;
-margin: 40px 0 20px 0;
+  text-align: center;
+  margin: 40px 0 20px 0;
 }
 
 .btn {
-display: inline-block;
-background-color: #004d26;
-color: #ffffff !important;
-padding: 14px 28px;
-text-decoration: none;
-font-size: 1.1rem;
-font-weight: bold;
-border-radius: 6px;
-transition: background-color 0.2s, transform 0.1s;
-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+  display: inline-block;
+  background-color: #004d26;
+  color: #ffffff !important;
+  padding: 14px 28px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: background-color 0.2s, transform 0.1s;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.15);
 }
 
 .btn:hover {
-background-color: #007a3d;
-transform: translateY(-2px);
-text-decoration: none;
+  background-color: #007a3d;
+  transform: translateY(-2px);
+  text-decoration: none;
 }
 
 .btn-secondary {
-background-color: #5a6268;
+  background-color: #5a6268;
 }
 
 .btn-secondary:hover {
-background-color: #464d52;
+  background-color: #464d52;
 }
 
 .top-link {
-text-align: center;
-margin: 20px 0;
+  text-align: center;
+  margin: 20px 0;
 }
 
 .top-link a {
-color: #004d26;
-font-weight: bold;
-text-decoration: none;
+  color: #004d26;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .top-link a:hover {
-text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* ==========================================================================
-RODAPÉ (FOOTER)
-========================================================================== */
+   RODAPÉ (FOOTER)
+   ========================================================================== */
 footer {
-background-color: #222222;
-color: #ffffff;
-text-align: center;
-padding: 25px 20px;
-margin-top: 50px;
-border-top: 3px solid #004d26;
+  background-color: #222222;
+  color: #ffffff;
+  text-align: center;
+  padding: 25px 20px;
+  margin-top: 50px;
+  border-top: 3px solid #004d26;
 }
 
 footer p {
-margin: 0;
-font-size: 0.95rem;
+  margin: 0;
+  font-size: 0.95rem;
 }
