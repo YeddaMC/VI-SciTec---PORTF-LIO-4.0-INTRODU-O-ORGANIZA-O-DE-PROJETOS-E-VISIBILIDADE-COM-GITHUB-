@@ -298,3 +298,63 @@ footer {
   border-top: 1px solid var(--border-color);
   margin-top: 2rem;
 }
+
+
+/* Estilo geral do container de créditos */
+.header-creditos-box {
+  background-color: #f8f9fa; /* Ajuste conforme a cor do seu tema */
+  padding: 10px 15px;
+  font-size: 0.9rem;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.creditos-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.creditos-linha {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap; /* Permite quebrem de linha se o espaço acabar */
+  gap: 5px;
+}
+
+.creditos-label {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.creditos-itens {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.divisor {
+  color: #6c757d;
+}
+
+/* Regra específica para celulares (telas menores que 768px) */
+@media (max-width: 768px) {
+  .creditos-linha {
+    flex-direction: column; /* Coloca o rótulo (Autoras/Orientadores) em cima e os nomes embaixo */
+    align-items: flex-start;
+    margin-bottom: 8px;
+  }
+  
+  .creditos-itens {
+    flex-direction: column; /* Cada nome de autor/orientador fica em sua própria linha */
+    align-items: flex-start;
+    gap: 2px;
+  }
+
+  .divisor {
+    display: none; /* Oculta os pontos divisores em formato coluna no celular, pois cada um já estará em uma linha */
+  }
+}
+
